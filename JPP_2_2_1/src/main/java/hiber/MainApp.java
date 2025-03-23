@@ -48,7 +48,7 @@ public class MainApp {
             System.out.println("Car = " + user.getCar().getModel());
             System.out.println();
         }
-        System.out.println(userService.getUserByCarId("Dodge", 11111).getFirstName());
+        System.out.println(userService.getUserByCarModelAndSeries("Dodge", 11111).getFirstName());
         context.close();
     }
 }
